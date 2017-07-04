@@ -68,13 +68,13 @@ def error(s):
 
 def usage():
     print(
-    'usage: depends [options] [input-dir]\r\n\r\n' +
+    'usage: depends [options]\r\n\r\n' +
     'Options are:\r\n' +
-    '    -h             print this help\r\n' +
+    '    -h             print this help and exit\r\n' +
+    '    -i             specify input directory\r\n' +
     '    -I             add include search path\r\n' +
     '    -f             specify format of output file. Supported are txt, html\r\n' +
     '    -o             specify output file name to create (default is stdout)\r\n' +
-    '    -i             set indent length (default is 2)\r\n' +
     '    -v             enable verbose mode\r\n' +
     '    --node         print depedencies of node\r\n' +
     '    --top-level    print top level files only\r\n' +
