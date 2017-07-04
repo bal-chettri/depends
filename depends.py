@@ -157,7 +157,7 @@ class Node(object):
         return True
 
 """
-Node class.  Defines an object representing a node in the dependency graph.
+Graph class.  Defines an object representing a module dependency graph.
 """
 class Graph(object):
     def __init__(self):
