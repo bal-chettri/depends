@@ -1,3 +1,3 @@
 depends
 
-Python tool to print dependency graph for C/C++ project.
+Python tool to print module dependency graph for C/C++ project.
