@@ -29,6 +29,7 @@ import sys
 import os
 import re
 import getopt
+import platform
 
 # File types to scan directly.
 CPP_FILE_TYPES = [ '.c', '.cpp', '.cxx' ]
@@ -327,7 +328,7 @@ def main(argv):
             node = arg
         elif opt == '--top-level':
             only_top_level = True
-        elif opt == '--only_leaf_level':
+        elif opt == '--leaf-level':
             only_leaf_level = True
         else:
             print('Invalid option "' + opt + '"')
